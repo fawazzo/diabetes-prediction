@@ -38,39 +38,6 @@ The system is designed to preprocess patient health data, train and evaluate mul
 
 ---
 
-## 📂 Project Structure
-
-Diabetes-Prediction-Expert-System/
-├── data/
-│ └── diabetes knn.csv # The primary dataset (e.g., Pima Indians Diabetes Dataset)
-│ ├── train_data.csv # Processed training features
-│ ├── train_labels.csv # Processed training labels
-│ ├── val_data.csv # Processed validation features
-│ ├── val_labels.csv # Processed validation labels
-│ ├── test_data.csv # Processed test features
-│ └── test_labels.csv # Processed test labels
-├── models/
-│ ├── scaler.pkl # Trained StandardScaler for feature scaling
-│ ├── decision_tree_model.pkl # Saved Decision Tree model
-│ ├── svm_model.pkl # Saved SVM model
-│ ├── knn_model.pkl # Saved k-NN model
-│ └── ann_model.h5 # Saved Artificial Neural Network model
-├── src/
-│ ├── utils/
-│ │ └── data_processing.py # Script for loading, preprocessing, and splitting data
-│ └── models/
-│ ├── decision_tree_model.py # Defines and trains Decision Tree model
-│ ├── svm_model.py # Defines and trains SVM model
-│ ├── knn_model.py # Defines and trains k-NN model
-│ └── ann_model.py # Defines and trains Artificial Neural Network model
-├── main.py # Orchestrates data loading, model training, evaluation, and runs Tkinter GUI
-├── streamlit_app.py # The Streamlit web application script
-├── requirements.txt # List of Python dependencies
-├── README.md # This file
-└── .gitignore # Specifies intentionally untracked files to ignore
-
----
-
 ## 🚀 How to Run the Project
 
 Follow these steps to set up and run the Diabetes Prediction Expert System locally.
@@ -83,10 +50,9 @@ Follow these steps to set up and run the Diabetes Prediction Expert System local
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/FawazKourd/Diabetes-Prediction-Expert-System.git
-    cd Diabetes-Prediction-Expert-System
+    git clone https://github.com/fawazzo/diabetes-prediction.git
+    cd diabetes-prediction
     ```
-    *(Replace `FawazKourd` with your actual GitHub username)*
 
 2.  **Create a Virtual Environment (Recommended):**
     ```bash
