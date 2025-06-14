@@ -69,7 +69,6 @@ Diabetes-Prediction-Expert-System/
 ├── README.md # This file
 └── .gitignore # Specifies intentionally untracked files to ignore
 
-
 ---
 
 ## 🚀 How to Run the Project
